@@ -4,8 +4,7 @@ node_js:
   - '6'
 env:
   - CXX=g++-4.8
-  global:
-    - CC_TEST_REPORTER_ID=a25e703502bbd0478b4f0e7c490b11ed964fee0f44a28424f4a9fe3f5342b5fc
+  - CC_TEST_REPORTER_ID=a25e703502bbd0478b4f0e7c490b11ed964fee0f44a28424f4a9fe3f5342b5fc
 addons:
   apt:
     sources:
